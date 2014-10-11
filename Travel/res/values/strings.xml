@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Travel</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="lista">列表模式</string>
+    <string name="mapa">地图模式</string>
+    <string name="bh">编号:001</string>
+    <string name="bhtext">孔子展览馆前言斯文在兹</string>
+    <string name="wzll">文字浏览</string>
+    <string name="yyjj">语音讲解</string>
+    <string name="go">GO</string>
+    <string name="xglr">相关内容</string>
+</resources>

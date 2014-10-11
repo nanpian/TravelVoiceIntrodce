@@ -1,0 +1,36 @@
+<resources>
+    <dimen name="click_threshold">5dip</dimen>
+    
+    <!--==============================================================-->  
+	<!-- 下载模块 -->
+	<dimen name="download_item_padding_x">12dip</dimen>
+	<dimen name="download_item_title_padding_x">10dip</dimen>
+	<dimen name="download_item_button_text">16dip</dimen>
+	<dimen name="download_item_title_padding_top">6dip</dimen>
+	<dimen name="download_item_url_padding_top">28dip</dimen>
+    <dimen name="listview_item_height">50dip</dimen>
+    <dimen name="folder_arrow_padding_right">24dip</dimen>
+    <dimen name="listview_item_titlesize">14.6dip</dimen>
+    <dimen name="listview_item_urlsize">12dip</dimen>
+    
+  	<!--==============================================================-->
+  	<!-- Menu -->
+  	<dimen name="menu_height">211dip</dimen>
+
+	<!-- Toolbar -->
+	<dimen name="toolbar_height">44dip</dimen>
+	<dimen name="toolbar_layout_height">44dip</dimen>
+	<dimen name="toolbar_padding_top">24dip</dimen>
+
+	<!-- Titlebar -->
+	<dimen name="titlebar_height">47dip</dimen>
+	
+	<!-- background -->
+	<dimen name="background_height">237dip</dimen>
+	
+	<!-- download -->
+	<dimen name="checkmark_area">48dip</dimen>
+	
+	<!-- dialog -->
+	<dimen name="dialog_width">295dip</dimen>
+</resources>

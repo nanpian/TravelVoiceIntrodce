@@ -1,0 +1,190 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout2xx"
+        android:layout_width="match_parent"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:background="@color/seashell" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/lift" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="30dip"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignTop="@+id/imageView1"
+            android:src="@drawable/right" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/ItemTitle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:text="@string/bh"
+        android:textColor="#343434"
+        android:textSize="15dip" />
+
+    <TextView
+        android:id="@+id/ItemText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/ItemTitle"
+        android:layout_below="@id/ItemTitle"
+        android:text="@string/bhtext"
+        android:textColor="#040404"
+        android:textSize="20dip"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutbottom"
+        android:layout_width="60dip"
+        android:layout_height="16dip"
+        android:layout_alignBottom="@id/thumbnail"
+        android:layout_alignLeft="@id/ItemText"
+        android:background="@color/seashell" >
+
+        <TextView
+            android:id="@+id/wzll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/wzll"
+            android:textColor="#343434"
+            android:textSize="12dip" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/thumbnail"
+        android:layout_marginTop="29dp"
+        android:layout_toLeftOf="@+id/relativeLayoutbottom"
+        android:text="@string/yyjj" />  
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="70dip"
+        android:layout_height="70dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/beijing" />
+
+    <ImageView
+        android:id="@+id/play"
+        android:layout_width="40dip"
+        android:layout_height="40dip"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:src="@drawable/bofang" />
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10" >
+
+            <requestFocus />
+        </EditText>
+
+        <Button
+            android:id="@+id/mapbtn"
+            android:layout_width="32dp"
+            android:layout_height="31dp"
+            android:background="@drawable/bj"
+            android:text="@string/go" />
+
+        <ImageView
+            android:id="@+id/pic"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.97"
+            android:src="@drawable/pic" />
+
+        <ImageView
+            android:id="@+id/gogo"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="0.97"
+            android:src="@drawable/go1" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="24dp"
+        android:layout_toLeftOf="@+id/imageView5"
+        android:src="@drawable/qian" />
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="60dip"
+        android:layout_height="60dip"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/relativeLayout2xx"
+        android:layout_marginTop="21dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView5"
+        android:layout_marginTop="54dp"
+        android:layout_toLeftOf="@+id/bofang"
+        android:text="@string/xglr" />
+
+    <ImageView
+        android:id="@+id/ImageView05"
+        android:layout_width="50dip"
+        android:layout_height="50dip"
+        android:layout_alignTop="@+id/imageView4"
+        android:layout_marginLeft="25dp"
+        android:layout_toRightOf="@+id/imageView5"
+        android:src="@drawable/hou" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView4"
+        android:layout_alignParentLeft="true"
+        android:orientation="horizontal" >
+
+                    <SeekBar
+                        android:id="@+id/skbProgress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentTop="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1.0"
+                        android:max="100"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

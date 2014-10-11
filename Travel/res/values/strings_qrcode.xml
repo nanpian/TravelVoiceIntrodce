@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+	<string name="scanner_result">扫描结果</string>
+	<string name="msg_camera_framework_bug">抱歉，Android相机出现问题，您可能需要重启设备</string>
+	<string name="msg_default_status">请将二维码置于方框内</string>
+	<string name="msg_intent_failed">抱歉，无法打开所需软件， 条码内容可能无效</string>
+	<string name="msg_text">文本：</string>
+	<string name="common_back">返回 </string>
+	<string name="copy_to_clipboard">已复制到剪贴板</string>
+	<string name="common_copy">复制</string>
+</resources>
